@@ -12,6 +12,21 @@ Put credentials in `cred.json` file.
 }
 ```
 
+Or you can exempt the "MAILERSEND_API_KEY" and put it in the system environment variables.
+
+```json
+{
+    "FROM_EMAIL": "email_address_connected_to_api_key",
+    "TO_EMAIL": "email_address_to_send_to"
+}
+```
+
+And
+
+```bash
+export MAILERSEND_API_KEY="your_api_key"
+```
+
 Example ipsend.service file:
 
 ```ini
