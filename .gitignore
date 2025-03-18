@@ -1,3 +1,5 @@
 cred.json
 *.log
 *.service
+*.txt
+*.log.*
